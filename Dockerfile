@@ -22,7 +22,9 @@ RUN apt-get install -y \
     gengetopt \
     libtool \
     autotools-dev \
-    automake
+    automake \
+    libconfig9 \
+    libconfig-dev
 
 RUN apt-get install -y \
     sudo \
